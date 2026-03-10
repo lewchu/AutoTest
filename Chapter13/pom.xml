@@ -89,9 +89,6 @@
                     <source>17</source>
                     <target>17</target>
                     <encoding>UTF-8</encoding>
-                    <compilerArgument>
-                        <extdirs>${project.basedir}/lib</extdirs>
-                    </compilerArgument>
                 </configuration>
             </plugin>
             <plugin>
