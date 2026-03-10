@@ -1,0 +1,152 @@
+[
+  {
+    "description": "这是我们的第一个mock例子",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "第一个mock框架demo"
+    }
+  },
+  {
+    "description": "模拟一个没有参数的get请求",
+    "request": {
+      "method": "get",
+      "uri": "/getdemo"
+    },
+    "response": {
+      "text": "这是一个没有参数的get请求"
+    }
+  },
+  {
+    "description": "模拟一个有参数的get请求",
+    "request": {
+      "method": "get",
+      "uri": "/getWithParam",
+      "queries": {
+        "name": "husan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三又回来了！！"
+    }
+  },
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是我的第一个mock的post请求"
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postWithParam",
+      "method": "post",
+      "forms": {
+        "name": "husan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三带着参数回来啦"
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的get请求",
+    "request": {
+      "method": "get",
+      "uri": "/getWithCookies",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是一个需要带cookies信息才能访问的get请求"
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的post请求",
+    "request": {
+      "method": "post",
+      "uri": "/postWithCookies",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "husan",
+        "age": 20
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "name": "husan",
+        "age": "20",
+        "code": 0
+      }
+    }
+  },
+  {
+    "description": "这是一个带headers信息的post请求",
+    "request": {
+      "method": "post",
+      "uri": "/postWithHeaders",
+      "headers": {
+        "token": "12345"
+      },
+      "json": {
+        "name": "husan",
+        "age": 20
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "name": "husan-1111",
+        "age": "20",
+        "code": 0
+      }
+    }
+  },
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "https://www.baidu.com"
+  },
+  {
+    "description": "重定向到自己的网页",
+    "request": {
+      "uri": "/redirect2"
+    },
+    "redirectTo": "/redirectNew"
+  },
+  {
+    "description": "这是被重定向到的请求",
+    "request": {
+      "uri": "/redirectNew"
+    },
+    "response": {
+      "text": "欢迎来到重定向成功页面"
+    }
+  },
+  {
+    "description": "这是一个会返回cookies信息的get请求",
+    "request": {
+      "method": "get",
+      "uri": "/getCookies"
+    },
+    "response": {
+      "text": "恭喜你获得cookies信息成功",
+      "cookies": {
+        "login": "true"
+      }
+    }
+  }
+]

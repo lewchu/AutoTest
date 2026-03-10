@@ -1,0 +1,15 @@
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/cases/AddUserTest.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/cases/GetUserInfoTest.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/cases/LoginTest.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/cases/UpdateUserInfoTest.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/cases/getUserInfoListTest.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/config/TestConfig.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/enums/InterFaceName.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/model/AddUserCase.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/model/GetUserInfoCase.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/model/GetUserListCase.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/model/LoginCase.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/model/UpdateUserInfoCase.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/model/User.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/utils/ConfigFileUtil.java
+/Users/chulei/workspace/back/git-project/AutoTest/Chapter12/src/main/java/com/lewchu/utils/DatabaseUtil.java

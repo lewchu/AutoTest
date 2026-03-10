@@ -1,0 +1,808 @@
+2026-03-10 14:54:30 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 9625 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 14:54:30 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 14:54:30 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 14:54:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 14:54:31 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 14:54:31 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 14:54:31 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 14:54:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 14:54:31 [main] INFO  com.lewchu.Application - Started Application in 1.247 seconds (process running for 1.912)
+2026-03-10 14:54:53 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 14:54:53 [http-nio-8080-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 142 ms
+2026-03-10 14:55:51 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 14:55:51 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4baa5f02
+2026-03-10 14:55:51 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 14:55:51 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：0
+2026-03-10 14:56:09 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 14:56:09 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 14:57:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 14:57:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 16:31:22 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 11652 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 16:31:22 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 16:31:23 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 16:31:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:31:23 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 16:31:23 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 16:31:23 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 16:31:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:31:23 [main] INFO  com.lewchu.Application - Started Application in 1.202 seconds (process running for 1.73)
+2026-03-10 16:31:46 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 16:31:46 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 16:31:47 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33b27199
+2026-03-10 16:31:47 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 16:31:47 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:31:47 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:31:47 [http-nio-8080-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+### The error may exist in file [/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes/mapper/mysql.xml]
+### The error may involve com.lewchu.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into user(id, name,password,age,sex,permission,isDelete) values(?, ?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+; Duplicate entry '1' for key 'user.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-6.3.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.11.jar:3.5.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-2.1.0.jar:2.1.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-2.1.0.jar:2.1.0]
+	at com.lewchu.controller.UserManagerController.addUser(UserManagerController.java:48) ~[classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-10 16:31:47 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 16:33:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 16:33:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 16:34:04 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 11702 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 16:34:04 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 16:34:05 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 16:34:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:34:05 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 16:34:05 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 16:34:05 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 16:34:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:34:05 [main] INFO  com.lewchu.Application - Started Application in 1.231 seconds (process running for 1.741)
+2026-03-10 16:34:48 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 16:34:48 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 16:34:48 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@644fad8
+2026-03-10 16:34:48 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 16:34:48 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:34:48 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:34:54 [http-nio-8080-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+### The error may exist in file [/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes/mapper/mysql.xml]
+### The error may involve com.lewchu.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into user(id, name,password,age,sex,permission,isDelete) values(?, ?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+; Duplicate entry '1' for key 'user.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-6.3.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.11.jar:3.5.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-2.1.0.jar:2.1.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-2.1.0.jar:2.1.0]
+	at com.lewchu.controller.UserManagerController.addUser(UserManagerController.java:48) ~[classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-10 16:35:56 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 16:36:43 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:36:43 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:36:43 [http-nio-8080-exec-8] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+### The error may exist in file [/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes/mapper/mysql.xml]
+### The error may involve com.lewchu.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into user(id, name,password,age,sex,permission,isDelete) values(?, ?,?,?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+; Duplicate entry '1' for key 'user.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'user.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-6.3.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.11.jar:3.5.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-2.1.0.jar:2.1.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-2.1.0.jar:2.1.0]
+	at com.lewchu.controller.UserManagerController.addUser(UserManagerController.java:48) ~[classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-10 16:36:43 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 16:42:51 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:42:51 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:42:51 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 16:43:45 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:43:45 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:43:45 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 16:44:13 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:44:13 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:44:31 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 16:46:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 16:46:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 16:46:28 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 12142 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 16:46:28 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 16:46:28 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 16:46:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:46:28 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 16:46:28 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 16:46:28 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 16:46:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:46:29 [main] INFO  com.lewchu.Application - Started Application in 1.238 seconds (process running for 1.769)
+2026-03-10 16:46:54 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 16:46:54 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 16:46:55 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76eac905
+2026-03-10 16:46:55 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 16:46:55 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:46:55 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:46:55 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 16:46:55 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan
+2026-03-10 16:46:55 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：3
+2026-03-10 16:50:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 16:50:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 16:55:15 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 12416 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 16:55:15 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 16:55:16 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 16:55:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:55:16 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 16:55:16 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 16:55:16 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 16:55:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 16:55:16 [main] INFO  com.lewchu.Application - Started Application in 1.172 seconds (process running for 1.673)
+2026-03-10 16:55:30 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 16:55:30 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 16:55:30 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e8334a
+2026-03-10 16:55:30 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 16:55:30 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：2
+2026-03-10 16:55:52 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 16:55:52 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 16:55:52 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 16:55:52 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan
+2026-03-10 16:55:52 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：3
+2026-03-10 17:02:31 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:02:31 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:02:31 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:02:31 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan618
+2026-03-10 17:02:31 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：3
+2026-03-10 17:11:47 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:11:47 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:11:47 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:11:47 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan513
+2026-03-10 17:12:34 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:12:34 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:12:34 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:12:34 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan73
+2026-03-10 17:13:34 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:13:34 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:13:34 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:13:34 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan613
+2026-03-10 17:17:51 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:17:51 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:17:51 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:17:51 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan766
+2026-03-10 17:18:51 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:18:51 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:18:51 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:18:51 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan575
+2026-03-10 17:20:59 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:20:59 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:20:59 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:20:59 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan309
+2026-03-10 17:23:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 17:23:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 17:23:43 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 13170 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 17:23:43 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 17:23:44 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 17:23:44 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:23:44 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 17:23:44 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 17:23:44 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 17:23:44 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:23:44 [main] INFO  com.lewchu.Application - Started Application in 1.234 seconds (process running for 1.829)
+2026-03-10 17:23:54 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 17:23:54 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 17:23:54 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55054012
+2026-03-10 17:23:54 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 17:23:54 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:23:54 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:23:54 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:23:54 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan747
+2026-03-10 17:24:00 [http-nio-8080-exec-3] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Optional int parameter 'id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.] with root cause
+java.lang.IllegalStateException: Optional int parameter 'id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleNullValue(AbstractNamedValueMethodArgumentResolver.java:271) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:128) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-10 17:24:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 17:24:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 17:27:15 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 13244 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 17:27:15 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 17:27:15 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 17:27:15 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:27:15 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 17:27:15 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 17:27:15 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 17:27:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:27:16 [main] INFO  com.lewchu.Application - Started Application in 1.209 seconds (process running for 1.791)
+2026-03-10 17:27:25 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 17:27:25 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 17:27:25 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71c1f605
+2026-03-10 17:27:25 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 17:27:25 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:27:25 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:27:25 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:27:25 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan669
+2026-03-10 17:27:29 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:30:19 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:30:19 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:30:19 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:30:19 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan673
+2026-03-10 17:30:19 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:35:09 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:35:09 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:35:09 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:35:09 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan167
+2026-03-10 17:35:09 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:37:03 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:37:03 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:37:03 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:37:03 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan239
+2026-03-10 17:37:03 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:41:05 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:41:05 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:41:06 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:41:06 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan52
+2026-03-10 17:41:06 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:42:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 17:42:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 17:50:32 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 13821 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 17:50:32 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 17:50:32 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 17:50:33 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:50:33 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 17:50:33 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 17:50:33 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 17:50:33 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:50:33 [main] INFO  com.lewchu.Application - Started Application in 1.249 seconds (process running for 1.766)
+2026-03-10 17:50:44 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 17:50:44 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 17:50:44 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f73ec6
+2026-03-10 17:50:44 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 17:50:44 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:50:44 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:50:44 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:50:44 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan361
+2026-03-10 17:50:44 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:50:50 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 17:52:17 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：0
+2026-03-10 17:52:40 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：0
+2026-03-10 17:53:52 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：0
+2026-03-10 17:54:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 17:54:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 17:57:58 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 14022 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 17:57:58 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 17:57:58 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 17:57:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:57:58 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 17:57:58 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 17:57:58 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 17:57:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 17:57:59 [main] INFO  com.lewchu.Application - Started Application in 1.295 seconds (process running for 1.934)
+2026-03-10 17:58:10 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 17:58:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 17:58:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bf6315a
+2026-03-10 17:58:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 17:58:10 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 17:58:10 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 17:58:10 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 17:58:10 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan635
+2026-03-10 17:58:10 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 17:58:10 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:04:16 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:04:16 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:04:16 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:04:16 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan250
+2026-03-10 18:04:16 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 18:04:16 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:05:48 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:05:48 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:05:48 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:05:48 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan858
+2026-03-10 18:05:48 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 18:05:48 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:31:03 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m22s889ms).
+2026-03-10 18:32:27 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：0
+2026-03-10 18:33:37 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:33:37 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:33:37 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:33:37 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan582
+2026-03-10 18:33:37 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 18:33:37 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:36:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 18:36:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 18:38:04 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 14444 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 18:38:04 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 18:38:05 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 18:38:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 18:38:05 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 18:38:05 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 18:38:05 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 18:38:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 18:38:05 [main] INFO  com.lewchu.Application - Started Application in 1.241 seconds (process running for 1.911)
+2026-03-10 18:38:17 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 18:38:17 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 18:38:17 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45995167
+2026-03-10 18:38:17 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 18:38:17 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:38:17 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:38:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:38:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan504
+2026-03-10 18:38:17 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=16, sex=男, permission=1, isDelete=0)
+2026-03-10 18:38:17 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:41:15 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:41:15 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:41:15 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:41:15 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan650
+2026-03-10 18:41:15 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 18:41:16 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:42:05 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:42:05 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:42:05 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:42:05 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan656
+2026-03-10 18:42:05 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 18:42:30 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 18:46:22 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 18:46:22 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 18:46:22 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 18:46:22 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan751
+2026-03-10 18:46:23 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 18:48:33 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:05:06 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:05:06 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:05:06 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:05:06 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan7
+2026-03-10 19:05:06 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:05:06 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:05:43 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:05:43 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:05:43 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:05:43 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan366
+2026-03-10 19:05:43 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:05:43 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:07:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:07:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:07:17 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:07:17 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan123
+2026-03-10 19:11:12 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:11:13 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:14:16 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:14:16 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:14:16 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:14:16 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan383
+2026-03-10 19:14:16 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:14:16 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:15:49 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:15:49 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:15:49 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:15:49 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan733
+2026-03-10 19:15:49 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:15:49 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:17:58 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:17:58 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:17:58 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:17:58 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan490
+2026-03-10 19:17:58 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:17:58 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:18:41 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:18:41 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:18:41 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:18:41 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan415
+2026-03-10 19:18:41 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:18:41 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:26:01 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:26:01 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:26:01 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:26:01 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan867
+2026-03-10 19:26:01 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:26:01 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:26:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 19:26:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 19:27:22 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 15710 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 19:27:22 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 19:27:22 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 19:27:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 19:27:23 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 19:27:23 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 19:27:23 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 19:27:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 19:27:23 [main] INFO  com.lewchu.Application - Started Application in 1.225 seconds (process running for 1.82)
+2026-03-10 19:27:45 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 19:27:45 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 19:27:45 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31a1881f
+2026-03-10 19:27:45 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 19:27:45 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:27:45 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:27:45 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:27:45 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan864
+2026-03-10 19:27:46 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:27:46 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:28:55 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:28:55 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:28:55 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:28:55 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan230
+2026-03-10 19:28:55 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:28:55 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:29:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 19:29:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 19:29:36 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 15777 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 19:29:36 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 19:29:36 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 19:29:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 19:29:37 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 19:29:37 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 19:29:37 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 19:29:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 19:29:37 [main] INFO  com.lewchu.Application - Started Application in 1.23 seconds (process running for 1.841)
+2026-03-10 19:30:07 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 19:30:07 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 19:30:07 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3adbc5a3
+2026-03-10 19:30:07 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 19:30:07 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:30:07 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:30:07 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:30:07 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan70
+2026-03-10 19:30:07 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:30:07 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:30:30 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:30:30 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:30:30 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:30:30 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan863
+2026-03-10 19:30:30 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:30:30 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:33:33 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:33:33 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:33:33 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:33:33 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan347
+2026-03-10 19:33:33 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:33:33 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:34:05 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:34:05 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:34:05 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:34:05 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan23
+2026-03-10 19:34:05 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:34:05 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:39:17 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:39:17 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:39:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:39:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan404
+2026-03-10 19:39:17 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:39:17 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:39:33 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:39:33 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:39:33 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:39:33 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan961
+2026-03-10 19:39:33 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:39:33 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:40:17 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:40:17 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:40:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:40:17 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan196
+2026-03-10 19:40:17 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:40:17 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:43:57 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:43:57 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:43:57 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:43:57 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan298
+2026-03-10 19:43:57 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:43:57 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:44:30 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：0
+2026-03-10 19:46:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 19:46:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 19:46:45 [main] INFO  com.lewchu.Application - Starting Application using Java 17.0.18 with PID 16414 (/Users/chulei/workspace/back/git-project/AutoTest/Chapter13/target/classes started by chulei in /Users/chulei/workspace/back/git-project/AutoTest)
+2026-03-10 19:46:45 [main] INFO  com.lewchu.Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 19:46:46 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lewchu]' package. Please check your configuration.
+2026-03-10 19:46:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 19:46:46 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 19:46:46 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-10 19:46:46 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 19:46:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 19:46:46 [main] INFO  com.lewchu.Application - Started Application in 1.316 seconds (process running for 2.032)
+2026-03-10 19:47:10 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 19:47:11 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 19:47:11 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5ac24f
+2026-03-10 19:47:11 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 19:47:11 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:47:11 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:47:11 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:47:11 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan657
+2026-03-10 19:47:11 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:47:11 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:47:49 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 19:47:55 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:47:55 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:47:55 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:47:55 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan95
+2026-03-10 19:47:55 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:47:55 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:48:11 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 19:51:53 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:51:53 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:51:53 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:51:53 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan239
+2026-03-10 19:51:53 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:51:53 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:51:56 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 19:54:14 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:54:14 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:54:14 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:54:14 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan638
+2026-03-10 19:54:14 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:54:14 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:54:19 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 19:57:04 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:57:04 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:57:04 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:57:04 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan292
+2026-03-10 19:57:04 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:57:04 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:57:04 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 19:59:10 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:59:10 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:59:10 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:59:10 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan799
+2026-03-10 19:59:10 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:59:10 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:59:10 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 19:59:34 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 19:59:34 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 19:59:34 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 19:59:34 [http-nio-8080-exec-8] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan582
+2026-03-10 19:59:34 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 19:59:35 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 19:59:35 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 20:03:16 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 20:03:16 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 20:03:16 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 20:03:16 [http-nio-8080-exec-4] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan295
+2026-03-10 20:03:16 [http-nio-8080-exec-5] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 20:03:17 [http-nio-8080-exec-6] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 20:03:17 [http-nio-8080-exec-7] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 20:04:07 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 查询到的结果是：1
+2026-03-10 20:04:07 [http-nio-8080-exec-9] INFO  com.lewchu.controller.UserManagerController - 登陆成功，登陆的用户是：zhangsan
+2026-03-10 20:04:07 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 添加结果是：1
+2026-03-10 20:04:07 [http-nio-8080-exec-10] INFO  com.lewchu.controller.UserManagerController - 添加用户成功，添加的用户是：zhangsan676
+2026-03-10 20:04:07 [http-nio-8080-exec-1] INFO  com.lewchu.controller.UserManagerController - 查询结果是：User(id=1, name=zhangsan, password=123456, age=0, sex=男, permission=0, isDelete=0)
+2026-03-10 20:04:07 [http-nio-8080-exec-2] INFO  com.lewchu.controller.UserManagerController - 更新结果是：1
+2026-03-10 20:04:07 [http-nio-8080-exec-3] INFO  com.lewchu.controller.UserManagerController - 查询结果数量是：2
+2026-03-10 20:04:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 20:04:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

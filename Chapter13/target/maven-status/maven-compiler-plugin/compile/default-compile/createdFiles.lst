@@ -1,0 +1,4 @@
+com/lewchu/Application.class
+com/lewchu/controller/UserManagerController.class
+com/lewchu/config/SwaggerConfig.class
+com/lewchu/model/User.class

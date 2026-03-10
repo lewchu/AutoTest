@@ -5,8 +5,8 @@
       <option name="groups">
         <value>
           <list size="2">
-            <item index="0" class="java.lang.String" itemvalue="server" />
-            <item index="1" class="java.lang.String" itemvalue="client" />
+            <item index="0" class="java.lang.String" itemvalue="loginTrue" />
+            <item index="1" class="java.lang.String" itemvalue="loginFalse" />
           </list>
         </value>
       </option>
