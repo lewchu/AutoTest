@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed54a8dd-cc45-4fdb-a954-dce09de84637" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/lewchu/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/lewchu/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/lewchu/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/lewchu/hello/SampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/lewchu/server/MyGetMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/lewchu/server/MyPostMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/lewchu/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/lewchu/controller/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/lewchu/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/cases/AddUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/cases/GetUserInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/cases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/cases/UpdateUserInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/cases/getUserInfoListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/enums/InterFaceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/model/AddUserCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/model/GetUserInfoCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/model/GetUserListCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/model/LoginCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/model/UpdateUserInfoCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/utils/ConfigFileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/lewchu/utils/DatabaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/mapper/SqlMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/lewchu/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/lewchu/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/lewchu/controller/UserManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/lewchu/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/lewchu/extend/TestMethodsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/lewchu/cookies/MyCookiesForGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/lewchu/cookies/MyCookiesForPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/lewchu/httpclient/MyHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed54a8dd-cc45-4fdb-a954-dce09de84637" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1772872586808</updated>
       <workItem from="1773020817925" duration="28075000" />
-      <workItem from="1773107720594" duration="32520000" />
+      <workItem from="1773107720594" duration="33121000" />
     </task>
     <servers />
   </component>
